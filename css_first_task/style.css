@@ -1,0 +1,38 @@
+* {
+    margin: 5px;
+    padding: 0;
+    font-family: monospace, sans-serif;
+
+
+}
+
+.header_title {
+    color: white;
+    background-color: black;
+    font-weight: bold;
+    padding: 10px 10px 10px 10px;
+
+}
+
+.cloud_span {
+    color: lightblue;
+}
+
+.projects_subtitle {
+    color: white;
+    background-color: #3c0041;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    font-weight: lighter;
+    font-style: italic;
+
+}
+
+.contactUs {
+    background-color: lightblue;
+    padding: 10px 10px 10px 10px;
+    text-align: right;
+    font-weight: lighter;
+    text-decoration: underline;
+
+}
