@@ -1,6 +1,6 @@
 START
-  INPUT WIDTH
-  INPUT LENGTH
-  SET AREA =  LENGTH * WIDTH
-  PRINT AREA
+  INPUT width
+  INPUT length
+  SET area =  length * width
+  PRINT area
 END
