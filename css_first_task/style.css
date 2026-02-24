@@ -15,12 +15,13 @@
 }
 
 .cloud_span {
-    color: lightblue;
+    color: aqua;
+    margin: 0;
 }
 
 .projects_subtitle {
     color: white;
-    background-color: #3c0041;
+    background-color: #663399;
     padding: 10px 10px 10px 10px;
     text-align: center;
     font-weight: lighter;
