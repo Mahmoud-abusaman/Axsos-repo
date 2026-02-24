@@ -1,17 +1,17 @@
 START
   INPUT N
-
+  IF n <0 
+    THROW "error"
   ELSE IF N IS EQUAL TO 0 OR N IS EQUAL TO 1
     PRINT 1
-    RETURN
   ELSE 
-    SET I = 2
-    SET RESULT=1
-    WHILE I IS LESS THAN OR EQUAL N
+    I = 2
+    RESULT=1
+    WHILE I <= N
       SET RESULT = RESULT * I
-      SET I = I + 1
+      I = I + 1
     ENDLOOP
-    PRINT "THE FACTORIAL OF N IS" + RESULT
+    OUTPUT "THE FACTORIAL OF N IS" + RESULT
   ENDIF
 END  
 
@@ -24,14 +24,14 @@ END
 
 Start
 FUNCTION factorial (n)
-  IF n IS LESS THAN 0 THEN
+  IF n < 0 THEN
     THROW "error"
-  ELSE IF n is less than 2 THEN
+  ELSE IF n < 2 THEN
     RETURN 1
   Else
     Return n* Factorial(n-1)
   ENDIF
 END FUNCTION
 INPUT n
-PRINT "THE FACTORIAL OF N IS" + factorial(n)
+OUTPUT "THE FACTORIAL OF N IS" + factorial(n)
 END
