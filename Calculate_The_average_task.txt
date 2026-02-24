@@ -2,7 +2,7 @@ START
   INPUT number1
   INPUT number2
   INPUT number3
-  SET sum TO number1+number2+number3
-  SET avg TO sum/3
-  PRINT AVG
+  sum = number1+number2+number3
+  avg = sum/3
+  OUTPUT AVG
 END
