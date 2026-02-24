@@ -1,0 +1,37 @@
+START
+  INPUT N
+
+  ELSE IF N IS EQUAL TO 0 OR N IS EQUAL TO 1
+    PRINT 1
+    RETURN
+  ELSE 
+    SET I = 2
+    SET RESULT=1
+    WHILE I IS LESS THAN OR EQUAL N
+      SET RESULT = RESULT * I
+      SET I = I + 1
+    ENDLOOP
+    PRINT "THE FACTORIAL OF N IS" + RESULT
+  ENDIF
+END  
+
+
+
+
+# or
+
+
+
+Start
+FUNCTION factorial (n)
+  IF n IS LESS THAN 0 THEN
+    THROW "error"
+  ELSE IF n is less than 2 THEN
+    RETURN 1
+  Else
+    Return n* Factorial(n-1)
+  ENDIF
+END FUNCTION
+INPUT n
+PRINT "THE FACTORIAL OF N IS" + factorial(n)
+END
