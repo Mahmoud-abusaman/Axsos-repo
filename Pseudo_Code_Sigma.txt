@@ -1,12 +1,14 @@
 START
   INPUT N
-  IF N IS LESS THAN OR EQAL 0 THEN
+  IF N < 0 THEN
     THROW "error"
+  ELSE
+    SET sum =0
+    FOR i FROM 1 To N 
+      sum = sum +i
+    END FOR
   END IF
-  SET sum =0
-  FOR i FROM 1 To N 
-    sum = sum +i
-  END FOR
+
   PRINT " the sum of ints from 1 to n is" + sum 
 END
   
