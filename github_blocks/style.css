@@ -4,7 +4,9 @@ body {
 }
 
 img.octocat {
-    height: 200px;
+    max-width: 200px;
+    min-width: 0;
+
 }
 
 h1 {
@@ -16,7 +18,7 @@ h1 {
     display: flex;
     margin: 20px;
     padding: 20px;
-
+    flex-wrap: wrap;
 }
 
 .cont1 {

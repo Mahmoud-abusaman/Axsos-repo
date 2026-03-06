@@ -2,6 +2,15 @@ body {
     margin: 40px;
 }
 
+button {
+    margin: 10px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
 .first-button {
     color: rgb(0, 222, 222);
     width: 120px;
@@ -26,5 +35,5 @@ body {
     border: black 2px solid;
     height: 30px;
     width: 160px;
-    box-shadow: 3px 3px 0px 0px black;
+    box-shadow: 3px 3px black;
 }
