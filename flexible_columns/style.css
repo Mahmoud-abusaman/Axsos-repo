@@ -1,0 +1,21 @@
+.row {
+    display: flex;
+}
+
+.row div {
+    background-color: aquamarine;
+    margin: 5px;
+    padding: 20px
+}
+
+.col {
+    flex: 1;
+}
+
+.col2 {
+    flex: 2;
+}
+
+.col3 {
+    flex: 3;
+}
