@@ -26,12 +26,10 @@ body {
     flex-wrap: wrap;
 }
 
-.nav_links li {
-    font-size: 1rem;
 
-}
 
 .nav_links li a {
+    font-size: 1rem;
     text-decoration: none;
     color: gray;
 }
