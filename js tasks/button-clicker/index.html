@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dojonary</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="topbar">
+        <h1>Dojonary</h1>
+        <input class="search" type="text" placeholder="Search" />
+        <button class="login-btn" onclick="changeText(this)">Login</button>
+    </div>
+
+    <div class="main">
+        <div class="left">
+            <div class="card">
+                <div class="word-info">
+                    <h2>ninja</h2>
+                    <p><em>noun</em></p>
+                    <p>Plural: <em>ninjas</em></p>
+                    <button class="likes-btn" onclick="likeAlert()">13 likes</button>
+                </div>
+                <div class="definition">
+                    A practitioner skilled in the
+                    <a href="#">Japanese</a> art of
+                    <a href="#">ninjutsu</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="word-info">
+                    <h2>ninja</h2>
+                    <p><em>noun</em></p>
+                    <p>Plural: <em>ninjas</em></p>
+                    <button class="likes-btn" onclick="likeAlert()">37 likes</button>
+                </div>
+                <div class="definition">
+                    A <a href="#">programmer</a> who breaks down problems with
+                    <a href="#">zen</a>-like focus
+                </div>
+            </div>
+        </div>
+
+        <div class="right">
+            <div class="side-box">
+                <h3>Dojonary is defined by <span>YOU</span></h3>
+                <button class="add-btn" onclick="removeButton(this)">Add Definition</button>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>
