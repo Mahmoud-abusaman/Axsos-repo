@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Profile</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="nav">
+        <div class="nav-container">
+            <h1>Profile</h1>
+            <ul class="nav_links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#" class="active">My Profile</a></li>
+                <li><a href="#">Find Connections</a></li>
+            </ul>
+        </div>
+        <button class="btn">Sign Out</button>
+    </nav>
+    <!-- ########################## -->
+
+    <main class="main-content">
+        <div class="left-column">
+            <section class="card user-card">
+                <div class="header"></div>
+                <div class="content">
+                    <div class="logo">
+                        <img src="./Hooda.png" alt="Jane Doe">
+                    </div>
+                    <h1 id="title">Mahmoud Abusamaan</h1>
+                    <h4 class="location">
+                        <img class="icon" src="./icons/map-marker.png" alt="location"> Gaza
+                    </h4>
+                    <div class="bio">
+                        <p>Developer | Engineer | Problem Solver</p>
+                        <p>Master of shadows and the internet!</p>
+                    </div>
+                    <div class="edit">
+                        <div style="color: blue;text-decoration: underline;" onclick="editProfile()">
+                            <img class="icon" src="./icons/gear.png" alt="settings"> edit profile
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="card">
+                <div class="grey-header">
+                    <h2>Education</h2>
+                </div>
+                <div class="card-body">
+                    <div class="education-item">
+                        <h3>Coding Dojo - Full Stack Bootcamp</h3>
+                        <p class="date">Dec 2019 - Mar 2020</p>
+                        <p>Triple black belt in Python, MERN, and C#...</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- ############################################# -->
+        <div class="right-column">
+            <section class="card">
+                <div class="grey-header">
+                    <span class="badge" id="requests_badge">2</span>
+                    <h2>Connection Requests</h2>
+                </div>
+                <div class="card-body" id="requests_container">
+                </div>
+            </section>
+
+            <section class="card">
+                <div class="grey-header">
+                    <span class="badge" id="connections_badge">500+</span>
+                    <h2>Your Connections</h2>
+                </div>
+                <div class="card-body second-connections">
+                    <div class="user-info">
+                        <img src="./images/adrien-s.jpg" alt="Adrien D" class="user-avatar">
+                        <span>Adrien D</span>
+                    </div>
+                    <div class="user-info">
+                        <img src="./images/anne-s.jpg" alt="Anne J" class="user-avatar">
+                        <span>Anne J</span>
+                    </div>
+                    <div class="user-info">
+                        <img src="./images/phil-s.jpg" alt="Alayne T" class="user-avatar">
+                        <span>Alayne T</span>
+                    </div>
+                    <div class="user-info">
+                        <img src="./images/arry-s.jpg" alt="Arry Y" class="user-avatar">
+                        <span>Arry Y</span>
+
+                    </div>
+                </div>
+                <div class="view-more">
+                    <a href="#">View More</a>
+                </div>
+        </div>
+
+        </section>
+        </div>
+    </main>
+    <script src="index.js"></script>
+
+</body>
+
+</html>
